@@ -38,33 +38,221 @@
 }
 
 
-.coba{
+.Navbar{
   background:  linear-gradient(-180deg,#f53d2d,#f63);
+  /* background:  linear-gradient(-180deg,#005082,#698474); */
   width: 100%;
   height: 15vh;
  }
- /* 
- form.example input[type=text] {
-   padding: 10px;
-   font-size: 17px;
-   border: 1px solid white;
-   float: left;
-   width: 80%;
-   background: #f1f1f1;
- } */
- 
- form.example button {
-   float: left;
-   width: 16%;
-   padding: 10px;
-   background: #fb6445;
-   color: white;
-   font-size: 17px;
-   border: 1px solid white;
-   border-left: none;
-   cursor: pointer;
+
+ .Navbar-Menu-1{
+   margin-left: 130px;
  }
 
+ .Navbar-Menu-JDI{
+  display: flex;
+ }
+
+ .Navbar-Text-Left-1{
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: white;
+  margin-right: 5px;
+  margin-top: 7px;
+ }
+ 
+ .Navbar-Text-Left-1:hover{
+   color: #dbdbdb;
+   cursor: pointer;
+  }
+  
+  .Navbar-Text-Left-2{
+   font-size: 14px;
+   font-family: 'Roboto';
+   color: white;
+   margin-right: 7px;
+   margin-top: 7px;
+  }
+
+  .Navbar-Icons-1{
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: white;
+    margin-right: 8px;
+    margin-top: 9px;
+  }
+
+  .Navbar-Icons-2{
+    font-size: 17px;
+    font-family: 'Roboto';
+    color: white;
+    margin-right: 8px;
+    margin-top: 9px;
+  }
+
+  .Navbar-Icons-3{
+    font-size: 19px;
+    font-family: 'Roboto';
+    color: white;
+    margin-right: 623px;
+    margin-top: 8px;
+  }
+
+  .Navbar-Icons-4{
+    font-size: 21px;
+    font-family: 'Roboto';
+    color: white;
+    margin-right: 2px;
+    margin-top: 6px;
+  }
+
+  .Navbar-Icons-4:hover{
+    color: #dbdbdb;
+    cursor: pointer;
+  }
+
+  .Navbar-Icons-5{
+    font-size: 21px;
+    font-family: 'Roboto';
+    color: white;
+    margin-right: 4px;
+    margin-top: 6px;
+  }
+
+  .Navbar-Icons-5:hover{
+    color: #dbdbdb;
+    cursor: pointer;
+  }
+
+  .Navbar-Text-Right-1{
+    font-size: 13px;
+    font-family: 'Roboto';
+    color: white;
+    margin-right: 10px;
+    margin-top: 7px;
+  }
+
+  .Navbar-Text-Right-1:hover{
+    color: #dbdbdb;
+    cursor: pointer;
+  }
+
+  .Navbar-Text-Right-2{
+    font-size: 13px;
+    font-family: 'Roboto';
+    color: white;
+    margin-right: 10px;
+    margin-top: 7px;
+  }
+
+  .Navbar-Text-Right-2:hover{
+    color: #dbdbdb;
+    cursor: pointer;
+  }
+
+  .Navbar-Text-Right-Register{
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: white;
+    margin-right: 10px;
+    margin-top: 7px;
+    font-weight: bolder;
+  }
+
+  .Navbar-Text-Right-Register:hover{
+    color: #dbdbdb;
+     cursor: pointer; 
+  }
+
+  .Navbar-Text-Right-4{
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: white;
+    margin-right: 10px;
+    margin-top: 7px;
+  }
+
+  .Navbar-Text-Right-Login{
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: white;
+    margin-right: 10px;
+    margin-top: 7px;
+    font-weight: bolder;
+  }
+
+  .Navbar-Text-Right-Login:hover{
+    color: #dbdbdb;
+    cursor: pointer;
+  }
+
+  .Navbar-Middle{
+    margin-left: 120px;
+    display: flex;
+  }
+
+  .Image-Logo{
+    width: 165px;
+    height: 100%;
+  }
+
+  .Flex{
+    display: flex;
+    margin-left: 52px;
+    margin-top: 5px;
+  }
+
+  .Navbar-Input-Search{
+    width: 770px;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 40px;
+  }
+
+  .Navbar-Icon-Search{
+    font-size: 20px;
+    color: white;
+     margin-bottom: 9px;
+  }
+
+  .Navbar-Icon-Cart{
+    margin-left: 90px;
+    margin-top: 13px;
+    color: white;
+    font-size: 25px;
+  }
+
+ form.example button {
+   float: left;
+   width: 9%;
+   padding: 10px;
+   background: linear-gradient(-180deg,#f53d2d,#f63);
+   /* background:  linear-gradient(-180deg,#005082,#698474); */
+   color: white;
+   font-size: 17px;
+   border: 1px solid #f63;
+   border-left: none;
+   height: 40px;
+   cursor: pointer;
+   border-radius: 3px;
+
+ }
+
+ .Navbar-Bottom{
+   display: flex;
+   z-index: 2;
+   position: absolute;
+   left: 339px;
+   top: 90px;
+ }
+
+ .Navbat-Bottom-Text{
+   font-size: 12px;
+   font-family: 'Roboto';
+   color: white;
+   margin-right: 10px;
+   margin-top: 7px;
+ }
 
  /* Font Biasa */
 @import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans|Poppins|Public+Sans|Raleway|Roboto&display=swap");
