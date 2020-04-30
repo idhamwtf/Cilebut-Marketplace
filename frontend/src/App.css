@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+
+.coba{
+  background:  linear-gradient(-180deg,#f53d2d,#f63);
+  width: 100%;
+  height: 15vh;
+ }
+ /* 
+ form.example input[type=text] {
+   padding: 10px;
+   font-size: 17px;
+   border: 1px solid white;
+   float: left;
+   width: 80%;
+   background: #f1f1f1;
+ } */
+ 
+ form.example button {
+   float: left;
+   width: 16%;
+   padding: 10px;
+   background: #fb6445;
+   color: white;
+   font-size: 17px;
+   border: 1px solid white;
+   border-left: none;
+   cursor: pointer;
+ }
+
+
+ /* Font Biasa */
+@import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans|Poppins|Public+Sans|Raleway|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alata|Bebas+Neue|Fjalla+One|Maven+Pro|Oswald|Questrial|Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap");
+/* Font Miring */
+@import url("https://fonts.googleapis.com/css?family=Allan|Bangers|Kaushan+Script|Knewave|Lemonada|Vast+Shadow&display=swap");
