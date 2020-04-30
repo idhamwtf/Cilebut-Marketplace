@@ -50,7 +50,7 @@ const Header = () => {
                 <p className='Navbat-Bottom-Text'>Kemeja Wanita</p>
                 <p className='Navbat-Bottom-Text'>Celana Pria</p>
                 <p className='Navbat-Bottom-Text'>Jaket Pria</p>
-                <p className='Navbat-Bottom-Text'>Dompet Wanita</p>
+                <p className='Navbat-Bottom-Text'>Dompet Pria</p>
 
             </div>
         </div>
