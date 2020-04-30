@@ -37,7 +37,9 @@
   }
 }
 
-
+.Appjs{
+  font-family: 'Roboto';
+}
 .Navbar{
   background:  linear-gradient(-180deg,#f53d2d,#f63);
   /* background:  linear-gradient(-180deg,#005082,#698474); */
@@ -252,6 +254,50 @@
    color: white;
    margin-right: 10px;
    margin-top: 7px;
+ }
+
+ .container-login{
+   height: 632px;
+   background-color: #ff742d;
+   display: flex;
+ }
+ .container-img-login{
+   /* border: 2px solid black; */
+   width: 600px;
+   margin: 0 0 0 450px;
+ }
+ .container-box-login{
+   /* border: 2px solid black; */
+   width: 500px;
+   height: 440px;
+   background-color: white;
+   border-radius: 1%;
+   margin: 80px 0 0 0;
+ }
+ .container-box-login-layer2{
+  /* border: 1px solid black; */
+   margin: 30px;
+ }
+ .box-login-1{
+   /* border: 1px solid black; */
+   display: flex;
+   margin: 0px 0 30px 0;
+ }
+ .daftar-login{
+   margin-top: 3px
+ }
+ .form-group input{
+  font-family: 'Roboto';
+font-size: 14px;
+margin-bottom: 30px;
+display: block;
+outline: black;
+ }
+ .box-login-3{
+  /* border: 1px solid black; */
+  margin-top: 15px;
+   color: #0055aa;
+   font-size: 14px;
  }
 
  /* Font Biasa */
