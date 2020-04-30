@@ -3,7 +3,7 @@ import {  IoIosNotificationsOutline, IoIosHelpCircleOutline, } from 'react-icons
 import { FaFacebook, FaLine, FaSearch, FaLinkedin } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
 import { FiShoppingCart } from 'react-icons/fi'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -27,7 +27,9 @@ const Header = () => {
                     <p className='Navbar-Text-Right-2'>Bantuan</p>
                     <p className='Navbar-Text-Right-Register'>Daftar</p>
                     <p className='Navbar-Text-Right-4'>|</p>
+                    <Link to={"/login"}>
                     <p className='Navbar-Text-Right-Login'>Login</p>
+                    </Link>
                 </div>
             </div>
 

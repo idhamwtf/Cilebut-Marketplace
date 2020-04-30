@@ -54,6 +54,7 @@
  .Navbar-Menu-JDI{
   display: flex;
  }
+ 
 
  .Navbar-Text-Left-1{
   font-size: 14px;
@@ -182,7 +183,7 @@
     margin-top: 7px;
     font-weight: bolder;
   }
-
+  
   .Navbar-Text-Right-Login:hover{
     color: #dbdbdb;
     cursor: pointer;
