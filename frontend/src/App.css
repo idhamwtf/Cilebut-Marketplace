@@ -296,16 +296,17 @@
   /* margin-bottom: 100px; */
 }
 .form-group input{
-  /* margin-bottom: 30px; */
+  margin: 3px;
+  font-size: 14px;
   border: none;
 }
 textarea:focus, 
 textarea.form-control:focus, 
 input.form-control:focus, 
-input[type=text]:focus, 
-input[type=password]:focus, 
-input[type=email]:focus, 
-input[type=number]:focus, 
+/* input[type=text]:focus,  */
+/* input[type=password]:focus,  */
+/* input[type=email]:focus,  */
+/* input[type=number]:focus,  */
 [type=text].form-control:focus, 
 [type=password].form-control:focus, 
 [type=email].form-control:focus, 
@@ -320,12 +321,41 @@ input[type=number]:focus,
   margin-top: 20px
 }
 .mata-mata{
-  margin-top: 6px;
+  margin-top: 8px;
   margin-right: 20px;
   color: grey;
   cursor: pointer
 }
-
+.box-login-4{
+  display: flex;
+  /* border: 1px solid red; */
+  margin-top: 40px;
+}
+.cuma-garis{
+  width: 185px;
+  height: 1px;
+  background-color: #cccccc;
+  margin-top: 12px
+}
+.box-login-4 span{
+  font-size: 14px;
+  color: #cccccc;
+  padding: 0 16px 0 16px
+}
+.box-login-5{
+  display: flex;
+  margin-top: 30px;
+}
+.box-login-5 button{
+width: 215px;
+height: 40px;
+background-color: #4285f4;
+font-size: 16px;
+font-weight: bold;
+color: white;
+display: flex;
+margin-right: 10px;
+}
 /* HEADER ENDED */
  /* Font Biasa */
 @import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans|Poppins|Public+Sans|Raleway|Roboto&display=swap");
