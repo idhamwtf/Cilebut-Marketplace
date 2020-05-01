@@ -5,7 +5,7 @@ function DetailStore() {
     return (
         <div style={{ paddingTop: '50px', paddingLeft: '100px', paddingRight: '100px' }}>
             <div style={{ border: '1px solid black', padding: '30px', display: 'flex' }}>
-                <div style={{ width: '650px', border: '1px solid black' }}>
+                <div style={{ width: '650px', border: '1px solid red' }}>
                     <Carousel infiniteLoop useKeyboardArrows autoPlay stopOnHover>
                         <div>
                             <img src="https://wallpaperaccess.com/full/17444.jpg" />
