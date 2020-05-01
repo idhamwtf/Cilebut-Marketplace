@@ -26,9 +26,6 @@ export default function Login() {
               <div className="form-group">
                 <input type="password" className="form-control" placeholder="Password" />
               </div>
-              {/* <button type="submit" className='button-login'>
-                Submit
-              </button> */}
               <button type="submit" className="btn" style={{fontSize:'14px',backgroundColor:'#ee4d2d', color:'white',width:'440px',height:'40px'}} disabled>LOGIN</button>
             </form>
           </div>
