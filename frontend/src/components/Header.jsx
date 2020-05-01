@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 // Header Complete
 const Header = () => {
 
+<<<<<<< HEAD
   return (
     <div className='Navbar'>
       <div className='Navbar-Menu-1'>
@@ -32,6 +33,32 @@ const Header = () => {
           </Link>
         </div>
       </div>
+=======
+    return (
+        <div className='Navbar'>
+            <div className='Navbar-Menu-1'>
+                <div className='Navbar-Menu-JDI'>
+                    <p className='Navbar-Text-Left-1'>Jual </p>
+                    <p className='Navbar-Text-Left-1'>|</p>
+                    <p className='Navbar-Text-Left-1'>Download</p>
+                    <p className='Navbar-Text-Left-1'>|</p>
+                    <p className='Navbar-Text-Left-2'>Ikuti Kami Di</p>
+                    <FaFacebook className='Navbar-Icons-1' />
+                    <FaLinkedin className='Navbar-Icons-1' />
+                    <FaLine className='Navbar-Icons-2' />
+                    <AiFillInstagram className='Navbar-Icons-3' />
+                    <IoIosNotificationsOutline className='Navbar-Icons-4' />
+                    <p className='Navbar-Text-Right-1'>Notifikasi</p>
+                    <IoIosHelpCircleOutline className='Navbar-Icons-5' />
+                    <p className='Navbar-Text-Right-2'>Bantuan</p>
+                    <p className='Navbar-Text-Right-Register'>Daftar</p>
+                    <p className='Navbar-Text-Right-4'>|</p>
+                    <Link to={"/login"} style={{ textDecoration: "none" }}>
+                        <p className='Navbar-Text-Right-Login'>Login</p>
+                    </Link>
+                </div>
+            </div>
+>>>>>>> abb4af20bcdee680df6228095a336328cd3d3acc
 
       <div className='Navbar-Middle'>
         <Link to='/'>
