@@ -225,6 +225,7 @@
   
    /* HEADER ENDED */
 
+  /* laptop dzaky */
  @media screen and (min-width: 1920px) {
     .Navbar-Menu-1{
       margin-left: 330px;
@@ -242,15 +243,16 @@
     }
   } 
 
- @media screen and (max-width: 1300px) {
+  /* laptop fakhran */
+  @media screen and (max-width: 1300px) {
   .Navbar{
-    height: 25vh;
+    height: 21vh;
    }
     .Navbar-Menu-1{
-      margin-left: 50px;
+      margin-left: 80px;
     }
     .Navbar-Middle{
-      margin-left: 180px;
+      margin-left: 110px;
       display: flex;
     }
     .Navbar-Bottom{

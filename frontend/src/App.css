@@ -19,6 +19,7 @@
   background-color:#f4732e ;
   color: white;
   font-size: 12px;
+  max-height: fit-content;
   /* border: 4px solid black; */
 }
 
