@@ -1,0 +1,28 @@
+/* Footer Started */
+
+.Footer-New {
+    height: 455px;
+    background-color: #fbfbfb;
+}
+
+.Footer-Top{
+    display: flex;
+    margin-top: 110px;
+    margin-left: 140px;
+}
+
+.Footer-Layanan{
+    margin-top: 50px;
+    display: column;
+    margin-right: 95px;
+}
+
+.Footer-Layanan-Head{
+    font-size: .75rem;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,.54)
+}
+
+/* Footer Ended */

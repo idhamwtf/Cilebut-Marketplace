@@ -242,3 +242,37 @@
     }
   } 
 
+ @media screen and (max-width: 1260px) {
+    .Navbar-Menu-1{
+      margin-left: 330px;
+    }
+    .Navbar-Middle{
+      margin-left: 320px;
+      display: flex;
+    }
+    .Navbar-Bottom{
+      display: flex;
+      z-index: 2;
+      position: absolute;
+      left: 539px;
+      top: 90px;
+    }
+  } 
+
+ /* @media screen and (min-width: 1550px) {
+    .Navbar-Menu-1{
+      margin-left: 330px;
+    }
+    .Navbar-Middle{
+      margin-left: 320px;
+      display: flex;
+    }
+    .Navbar-Bottom{
+      display: flex;
+      z-index: 2;
+      position: absolute;
+      left: 539px;
+      top: 90px;
+    }
+  }  */
+

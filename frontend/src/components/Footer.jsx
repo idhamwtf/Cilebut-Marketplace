@@ -1,15 +1,15 @@
 import React from 'react'
 import { FaFacebook, FaLine, FaSearch, FaLinkedin, FaTwitterSquare } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
-
+import '../css/Footer.css'
 
 const Footer = () => {
     return (
         // Footer Started
-        <div style={{ height: "455px", backgroundColor: "#fbfbfb" }}>
-            <div style={{ display: "flex", marginTop: "100px", marginLeft: "140px" }}>
-                <div style={{ marginTop: "50px", display: "column", marginRight: "95px" }} >
-                    <p style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "700", letterSpacing: "", color: "rgba(0,0,0,.54)" }}> LAYANAN PELANGGAN</p>
+        <div className='Footer-New'>
+            <div className='Footer-Top'>
+                <div className='Footer-Layanan'>
+                    <p className='Footer-Layanan-Head'> LAYANAN PELANGGAN</p>
                     <h6 style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "200", color: "rgba(0,0,0,.54)", letterSpacing: "1px", lineHeight: "14px" }}>Bantuan</h6>
                     <h6 style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "", color: "rgba(0,0,0,.54)", letterSpacing: "1px", marginTop: "15px" }}>Pembayaran</h6>
                     <h6 style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "", color: "rgba(0,0,0,.54)", letterSpacing: "1px", marginTop: "15px" }}>Lacak Pesanan Pembeli</h6>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <h6 style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "", color: "rgba(0,0,0,.54)", letterSpacing: "1px", marginTop: "15px" }}>Hubungi Kami</h6>
                 </div>
                 <div style={{ marginTop: "50px", display: "column", marginRight: "95px" }} >
-                    <p style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "700", letterSpacing: "", color: "rgba(0,0,0,.54)" }}>JELAJAHI SHOPEE</p>
+                    <p style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "700", letterSpacing: "1px", color: "rgba(0,0,0,.54)" }}>JELAJAHI SHOPEE</p>
                     <h6 style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "200", color: "rgba(0,0,0,.54)", letterSpacing: "1px", lineHeight: "14px" }}>Tentang Kami</h6>
                     <h6 style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "", color: "rgba(0,0,0,.54)", letterSpacing: "1px", marginTop: "15px" }}>Karir</h6>
                     <h6 style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "", color: "rgba(0,0,0,.54)", letterSpacing: "1px", marginTop: "15px" }}>Kebijakan Shopee</h6>
@@ -30,7 +30,7 @@ const Footer = () => {
                     <h6 style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "", color: "rgba(0,0,0,.54)", letterSpacing: "1px", marginTop: "15px" }}>Hubungi Kami</h6>
                 </div>
                 <div style={{ marginTop: "50px", display: "column", marginRight: "95px" }} >
-                    <p style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "700", letterSpacing: "", color: "rgba(0,0,0,.54)" }}>PEMBAYARAN</p>
+                    <p style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "700", letterSpacing: "1px", color: "rgba(0,0,0,.54)" }}>PEMBAYARAN</p>
                     <div style={{ display: "flex", marginBottom: "19px" }}>
                         <img src="https://3.bp.blogspot.com/-ZK6W9UlA3lw/V15RGexr3yI/AAAAAAAAAJ4/nkyM9ebn_qg3_rQWyBZ1se5L_SSuuxcDACLcB/s1600/Bank_Central_Asia.png" alt="a" style={{ width: "45px", marginRight: "15px" }} />
                         <img src="https://logos-download.com/wp-content/uploads/2016/06/Mandiri_logo.png" alt="a" style={{ width: "45px", marginRight: "15px" }} />
@@ -58,7 +58,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div style={{ marginTop: "50px", display: "column", marginRight: "95px" }} >
-                    <p style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "700", letterSpacing: "", color: "rgba(0,0,0,.54)" }}>IKUTI KAMI</p>
+                    <p style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "700", letterSpacing: "1px", color: "rgba(0,0,0,.54)" }}>IKUTI KAMI</p>
                     <div style={{ display: "flex" }}>
                         <FaFacebook />
                         <h6 style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "200", color: "rgba(0,0,0,.54)", letterSpacing: "1px", lineHeight: "14px", marginLeft: "7px", marginTop: "1px" }}>Facebook</h6>
@@ -82,7 +82,7 @@ const Footer = () => {
                 </div>
 
                 <div style={{ marginTop: "50px", display: "column", marginRight: "75px" }} >
-                    <p style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "700", letterSpacing: "", color: "rgba(0,0,0,.54)" }}>DOWNLOAD APIKASI SHOPEE</p>
+                    <p style={{ fontSize: ".75rem", fontFamily: "Roboto", fontWeight: "700", letterSpacing: "1px", color: "rgba(0,0,0,.54)" }}>DOWNLOAD APIKASI SHOPEE</p>
                     <div style={{ display: "flex" }}>
                         <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/e68ee35ea16e8c82ec46074f1e6fe247.png" alt="A" style={{ width: "80px" }} />
                         <div style={{ display: "column", marginLeft: "4px" }}>
