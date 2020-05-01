@@ -4,6 +4,7 @@ import { FaFacebook, FaLine, FaSearch, FaLinkedin } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
 import { FiShoppingCart } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
+import './../css/header.css'
 
 // Header Complete
 const Header = () => {
