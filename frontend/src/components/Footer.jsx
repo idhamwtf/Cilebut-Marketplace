@@ -5,6 +5,7 @@ import { AiFillInstagram } from 'react-icons/ai'
 
 const Footer = () => {
     return (
+        // Footer Started
         <div style={{ height: "455px", backgroundColor: "#fbfbfb" }}>
             <div style={{ display: "flex", marginTop: "100px", marginLeft: "140px" }}>
                 <div style={{ marginTop: "50px", display: "column", marginRight: "95px" }} >
@@ -112,6 +113,7 @@ const Footer = () => {
 
             </div>
         </div>
+        //Footer Ended
     )
 }
 
