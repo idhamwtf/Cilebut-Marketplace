@@ -27,8 +27,8 @@ const Header = () => {
                     <p className='Navbar-Text-Right-2'>Bantuan</p>
                     <p className='Navbar-Text-Right-Register'>Daftar</p>
                     <p className='Navbar-Text-Right-4'>|</p>
-                    <Link to={"/login"}>
-                    <p className='Navbar-Text-Right-Login'>Login</p>
+                    <Link to={"/login"} style={{ textDecoration: "none" }}>
+                        <p className='Navbar-Text-Right-Login'>Login</p>
                     </Link>
                 </div>
             </div>
