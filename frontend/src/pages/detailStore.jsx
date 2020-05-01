@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel'
 import { Breadcrumb, BreadcrumbItem } from 'react-bootstrap'
 import Rating from '@material-ui/lab/Rating';
 import Typography from '@material-ui/core/Typography';
-import { FaFacebook, FaLine, FaTwitter, FaInstagram, FaHeart } from 'react-icons/fa'
+import { FaFacebook, FaLine, FaTwitter, FaInstagram, FaHeart, FaCoins, FaTruck, FaMoneyBill } from 'react-icons/fa'
 
 function DetailStore() {
     return (
@@ -12,13 +12,13 @@ function DetailStore() {
                 <div className="container-carousel">
                     <Carousel infiniteLoop useKeyboardArrows autoPlay stopOnHover>
                         <div>
-                            <img src="https://wallpaperaccess.com/full/17444.jpg" />
+                            <img src="https://wallpaperaccess.com/full/17444.jpg" alt="" />
                         </div>
                         <div>
-                            <img src="https://wallpaperaccess.com/full/17444.jpg" />
+                            <img src="https://wallpaperaccess.com/full/17444.jpg" alt="" />
                         </div>
                         <div>
-                            <img src="https://wallpaperaccess.com/full/17444.jpg" />
+                            <img src="https://wallpaperaccess.com/full/17444.jpg" alt="" />
                         </div>
                     </Carousel>
                     <div style={{ display: 'flex', fontFamily: 'Roboto' }}>
@@ -50,6 +50,39 @@ function DetailStore() {
                             5 Penilaian
                         </BreadcrumbItem>
                     </Breadcrumb>
+                    <div>
+                        <h1>RP.1.000.000,00</h1>
+                        <div style={{ display: 'flex', marginTop: '35px' }}>
+                            <div style={{ marginRight: '83px' }}>Koin</div>
+                            <div><FaCoins /> Beli dan dapatkan 285 Koin Shopee</div>
+                        </div>
+                        <div style={{ display: 'flex', marginTop: '15px' }}>
+                            <div style={{ marginRight: '35px' }}>Pengiriman</div>
+                            <select>
+                                <option defaultValue>--pilih kota-- </option>
+                                <option>Jakarta</option>
+                                <option>Depok</option>
+                                <option>Bogor</option>
+                                <option>Bandung</option>
+                                <option>Bekasi</option>
+                                <option>Tanggerang</option>
+                            </select>
+                            <FaTruck />
+                            <div style={{ marginLeft: '50px' }}>Ongkos Kirim : RP.20.000,00 ( + RP.5.000,00 di luar Jabodetabek ) </div>
+                        </div>
+                    </div>
+                    <div style={{ display: 'flex', marginTop: '15px' }}>
+                        <div style={{ marginRight: '83px' }}>
+                            Kuantitas
+                        </div>
+                        <div>
+                            1
+                        </div>
+                    </div>
+                    <div style={{ marginTop: '15px', display: 'flex' }}>
+                        <button type="submit" className="btn" style={{ fontSize: '14px', backgroundColor: '#ee4d2d', color: 'white', width: '240px', height: '40px' }} disabled>Masukkan Keranjang</button>
+                        <button type="submit" className="btn" style={{ fontSize: '14px', backgroundColor: '#ee4d2d', color: 'white', width: '240px', height: '40px', marginLeft: '30px' }} disabled>Beli Sekarang</button>
+                    </div>
                 </div>
             </div>
         </div>
