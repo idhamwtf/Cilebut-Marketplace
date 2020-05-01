@@ -318,10 +318,23 @@ input[type=number]:focus,
 
 
 /* DetailProduk */
+
+.container-produk{
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: white;
+}
+.container-carousel-detail{
+  padding: 30px;
+  display: flex;
+  min-width: 80vh;
+}
 .container-carousel{
-  background-color:#f4732e ;
   border-radius: 2%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  background-color:#f4732e ;
+  color: white;
   width: 600px;
   height: 500px;
 }
