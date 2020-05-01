@@ -1,11 +1,18 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel'
+import { Breadcrumb, BreadcrumbItem } from 'react-bootstrap'
+import Rating from '@material-ui/lab/Rating';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
 
 function DetailStore() {
     return (
-        <div style={{ paddingTop: '50px', paddingLeft: '100px', paddingRight: '100px' }}>
-            <div style={{ border: '3px solid black', padding: '30px', display: 'flex', minWidth: '80vh' }}>
-                <div style={{ border: '3px solid black', width: '600px' }}>
+        <div style={{
+            paddingTop: '50px', paddingLeft: '100px', paddingRight: '100px',
+            backgroundColor: `white`
+        }} >
+            <div style={{ padding: '30px', display: 'flex', minWidth: '80vh' }}>
+                <div className="container-carousel">
                     <Carousel infiniteLoop useKeyboardArrows autoPlay stopOnHover>
                         <div>
                             <img src="https://wallpaperaccess.com/full/17444.jpg" />
@@ -18,13 +25,22 @@ function DetailStore() {
                         </div>
                     </Carousel>
                 </div>
-                <div style={{ border: '3px solid black', minWidth: '110vh', marginLeft: '50px', padding: '25px' }} >
-                    <h1 style={{ display: 'flex', justifyContent: 'center' }}>Playstation 2</h1>
-                    <div style={{ border: '3px solid black', minHeight: '40vh', padding: '20px', fontSize: '21px', marginLeft: '30px' }}>
-                        <div>Store Name : Adidaya Gaming </div>
-                        <div>Total Buyer : 10</div>
-                        <div>Stock : 7 </div>
-                    </div>
+                <div className="container-detail-produk" >
+                    <h1>Playstation 2</h1>
+                    <Breadcrumb >
+                        <Breadcrumb.Item active >
+                            <div style={{ display: 'flex', color: 'black' }}>
+                                <Typography >5.00</Typography>
+                                <Rating name="read-only" value={5} readOnly />
+                            </div>
+                        </Breadcrumb.Item>
+                        <Breadcrumb.Item active >
+                            5 Penjualan
+                        </Breadcrumb.Item>
+                        <BreadcrumbItem active >
+                            5 Penilaian
+                        </BreadcrumbItem>
+                    </Breadcrumb>
                 </div>
             </div>
         </div>
