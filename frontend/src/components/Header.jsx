@@ -1,11 +1,11 @@
 import React from 'react';
-import {  IoIosNotificationsOutline, IoIosHelpCircleOutline, } from 'react-icons/io'
+import { IoIosNotificationsOutline, IoIosHelpCircleOutline, } from 'react-icons/io'
 import { FaFacebook, FaLine, FaSearch, FaLinkedin } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
 import { FiShoppingCart } from 'react-icons/fi'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-
+// Header Complete
 const Header = () => {
 
     return (
@@ -32,7 +32,9 @@ const Header = () => {
             </div>
 
             <div className='Navbar-Middle'>
-                <img src="https://tambahfollowers.net/assets/img/brand/logo-shopee-white.png" alt="a" className='Image-Logo' />
+                <Link to='/'>
+                    <img src="https://tambahfollowers.net/assets/img/brand/logo-shopee-white.png" alt="a" className='Image-Logo' />
+                </Link>
                 <form className="example Flex" >
                     <input type="text" placeholder="&nbsp; Search.." name="search2" className='Navbar-Input-Search' />
                     <button type="submit">
@@ -44,13 +46,27 @@ const Header = () => {
             </div>
 
             <div className='Navbar-Bottom'>
-                <p className='Navbat-Bottom-Text'>Baju Wanita </p>
-                <p className='Navbat-Bottom-Text'>Kaos Wanita</p>
-                <p className='Navbat-Bottom-Text'>Sandal Wanita</p>
-                <p className='Navbat-Bottom-Text'>Kemeja Wanita</p>
-                <p className='Navbat-Bottom-Text'>Celana Pria</p>
-                <p className='Navbat-Bottom-Text'>Jaket Pria</p>
-                <p className='Navbat-Bottom-Text'>Dompet Pria</p>
+                <Link to='/detailstore' className='LinkAsu' style={{ textDecoration: "none" }}>
+                    <p className='Navbat-Bottom-Text'>Baju Wanita </p>
+                </Link>
+                <Link className='LinkAsu' style={{ textDecoration: "none" }}>
+                    <p className='Navbat-Bottom-Text'>Kaos Wanita</p>
+                </Link>
+                <Link className='Link' style={{ textDecoration: "none" }}>
+                    <p className='Navbat-Bottom-Text'>Sandal Wanita</p>
+                </Link>
+                <Link className='Link' style={{ textDecoration: "none" }}>
+                    <p className='Navbat-Bottom-Text'>Kemeja Wanita</p>
+                </Link>
+                <Link className='Link' style={{ textDecoration: "none" }}>
+                    <p className='Navbat-Bottom-Text'>Celana Pria</p>
+                </Link>
+                <Link className='Link' style={{ textDecoration: "none" }}>
+                    <p className='Navbat-Bottom-Text'>Jaket Pria</p>
+                </Link>
+                <Link className='Link' style={{ textDecoration: "none" }}>
+                    <p className='Navbat-Bottom-Text'>Dompet Pria</p>
+                </Link>
 
             </div>
         </div>

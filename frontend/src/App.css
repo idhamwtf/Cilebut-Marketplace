@@ -38,6 +38,8 @@
 }
 
 
+/* HEADER STARTED */
+
 .Navbar{
   background:  linear-gradient(-180deg,#f53d2d,#f63);
   /* background:  linear-gradient(-180deg,#005082,#698474); */
@@ -94,7 +96,7 @@
     font-size: 19px;
     font-family: 'Roboto';
     color: white;
-    margin-right: 623px;
+    margin-right: 620px;
     margin-top: 8px;
   }
 
@@ -216,7 +218,7 @@
   }
 
   .Navbar-Icon-Cart{
-    margin-left: 90px;
+    margin-left: 70px;
     margin-top: 13px;
     color: white;
     font-size: 25px;
@@ -252,8 +254,15 @@
    color: white;
    margin-right: 10px;
    margin-top: 7px;
+   cursor: pointer;
+   text-decoration: none;
  }
 
+ .LinkAsu{
+   text-decoration: none;
+ }
+
+/* HEADER ENDED */
  /* Font Biasa */
 @import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans|Poppins|Public+Sans|Raleway|Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Roboto+Mono&display=swap");
