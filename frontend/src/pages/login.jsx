@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import VisibilityOffIcon from '@material-ui/icons/VisibilityOff';
+import VisibilityIcon from '@material-ui/icons/Visibility';
 
 
 export default function Login() {
+  const [visibility,setvisibility]=useState(false)
+console.log("visibility",visibility)
   return (
     <div className="container-login">
       <div className="container-img-login">
@@ -20,11 +24,18 @@ export default function Login() {
 
           <div className="box-login-2">
             <form>
-              <div className="form-group">
+              <div className="form-group" style={{marginBottom:'30px'}}>
                 <input type="email" className="form-control" placeholder="Username or Email" />
               </div>
-              <div className="form-group">
+              <div className="form-group" style={{marginBottom:'40px'}}>
+                {visibility?
+                <input type="text" className="form-control" placeholder="Password" />:
                 <input type="password" className="form-control" placeholder="Password" />
+              }
+                {visibility?
+                <VisibilityIcon className='mata-mata' onClick={()=>setvisibility(!visibility)}/>:
+                <VisibilityOffIcon className='mata-mata' onClick={()=>setvisibility(!visibility)}/>
+              }
               </div>
               <button type="submit" className="btn" style={{fontSize:'14px',backgroundColor:'#ee4d2d', color:'white',width:'440px',height:'40px'}} disabled>LOGIN</button>
             </form>
