@@ -165,13 +165,24 @@
       margin-top: 5px;
     }
   
-    .Navbar-Input-Search{
+    /* .Navbar-Input-Search{
       width: 770px;
       border: 1px solid white;
       border-radius: 5px;
       height: 40px;
+      box-shadow: inset 0 0px 0 #ddd;
     }
-  
+   */
+
+   [type=text].form-control{
+     box-shadow: inset 0 0px 0 #ddd;
+     width: 770px;
+     border: 1px solid white;
+     border-radius: 5px;
+     height: 40px;
+     box-shadow: inset 0 0px 0 #ddd;
+   }
+   
     .Navbar-Icon-Search{
       font-size: 20px;
       color: white;
@@ -242,6 +253,7 @@
     }
   } 
 
+
  @media screen and (max-width: 1300px) {
   .Navbar{
     height: 25vh;
@@ -274,6 +286,7 @@
       left: 400px;
       top: 100px;
     }
+    
     .Navbar-Input-Search{
       width: 690px;
       border: 1px solid white;
