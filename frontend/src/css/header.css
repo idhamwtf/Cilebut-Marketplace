@@ -175,7 +175,7 @@
     .Navbar-Icon-Search{
       font-size: 20px;
       color: white;
-       margin-bottom: 9px;
+      margin-bottom: 9px;
     }
   
     .Navbar-Icon-Cart{
@@ -249,21 +249,36 @@
     height: 21vh;
    }
     .Navbar-Menu-1{
-      margin-left: 80px;
+      margin-left: 125px;
     }
     .Navbar-Middle{
       margin-left: 110px;
       display: flex;
     }
+
+    .Navbar-Icons-3{
+      font-size: 19px;
+      font-family: 'Roboto';
+      color: white;
+      margin-right: 490px;
+      margin-top: 8px;
+    }
+
+     .Image-Logo{
+      width: 155px;
+      height: 100%;
+    }
+
+   
     .Navbar-Bottom{
       display: flex;
       z-index: 2;
       position: absolute;
-      left: 400px;
-      top: 100px;
+      left: 318px;
+      top: 90px;
     }
     .Navbar-Input-Search{
-      width: 500px;
+      width: 690px;
       border: 1px solid white;
       border-radius: 5px;
       height: 40px;
