@@ -21,7 +21,7 @@ function DetailStore() {
                             <img src="https://wallpaperaccess.com/full/17444.jpg" alt="" />
                         </div>
                     </Carousel>
-                    <div style={{ display: 'flex', fontFamily: 'Roboto' }}>
+                    <div style={{ display: 'flex', fontFamily: 'Roboto', marginTop: '55px' }}>
                         <div style={{ display: 'flex' }}>
                             <div style={{ marginLeft: '30px', marginRight: '10px' }} > Share: </div>
                             <div style={{ marginRight: '10px' }}> <FaFacebook /> </div>
@@ -29,7 +29,7 @@ function DetailStore() {
                             <div style={{ marginRight: '10px' }}> <FaInstagram /></div>
                             <div style={{ marginRight: '10px' }}> <FaTwitter /></div>
                         </div>
-                        <div style={{ marginLeft: '200px' }}>
+                        <div style={{ marginLeft: '90px' }}>
                             <FaHeart /> Favorit (26)
                         </div>
                     </div>
@@ -50,7 +50,7 @@ function DetailStore() {
                             5 Penilaian
                         </BreadcrumbItem>
                     </Breadcrumb>
-                    <div>
+                    <div style={{ fontSize: '12px' }}>
                         <h1>RP.1.000.000,00</h1>
                         <div style={{ display: 'flex', marginTop: '35px' }}>
                             <div style={{ marginRight: '83px' }}>Koin</div>
@@ -67,7 +67,6 @@ function DetailStore() {
                                 <option>Bekasi</option>
                                 <option>Tanggerang</option>
                             </select>
-                            <FaTruck />
                             <div style={{ marginLeft: '50px' }}>Ongkos Kirim : RP.20.000,00 ( + RP.5.000,00 di luar Jabodetabek ) </div>
                         </div>
                     </div>
@@ -80,8 +79,8 @@ function DetailStore() {
                         </div>
                     </div>
                     <div style={{ marginTop: '15px', display: 'flex' }}>
-                        <button type="submit" className="btn" style={{ fontSize: '14px', backgroundColor: '#ee4d2d', color: 'white', width: '240px', height: '40px' }} disabled>Masukkan Keranjang</button>
-                        <button type="submit" className="btn" style={{ fontSize: '14px', backgroundColor: '#ee4d2d', color: 'white', width: '240px', height: '40px', marginLeft: '30px' }} disabled>Beli Sekarang</button>
+                        <button type="submit" className="btn" style={{ fontSize: '14px', backgroundColor: '#ee4d2d', color: 'white', width: '240px', height: '40px' }} >Masukkan Keranjang</button>
+                        <button type="submit" className="btn" style={{ fontSize: '14px', backgroundColor: '#ee4d2d', color: 'white', width: '240px', height: '40px', marginLeft: '30px' }} >Beli Sekarang</button>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,55 @@
+.shortcut {
+    width: 310px;
+    height: 100% !important;
+    overflow: hidden;
+    float: left;
+    background: pink;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.shortcut-category {
+    margin: 20px;
+}
+
+.shortcut-filter {
+    margin: 20px;
+}
+
+.shortcut-title {
+    font-family: 'Roboto';
+    font-size: 20px;
+    display: flex;
+    padding-top: 20px;
+}
+
+.shortcut-icon {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.shortcut-submenu {
+    padding-top: 25px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.shortcut-menu-title {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: black;
+    list-style: none;
+    text-transform: none;
+}
+
+.shortcut-button {
+    font-family: Montserrat, Overpass,Trebuchet MS,Arial,sans-serif;
+    font-size: 12px;
+    margin: 10px;
+    background-color: orange;
+    padding: 10px 25px;
+    color: white;
+    text-align: center;
+  }

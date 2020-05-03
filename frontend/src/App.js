@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import DetailStore from './pages/detailStore'
 import Login from './pages/login'
+import ProductCategory from './pages/productCategory';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path={'/'} exact component={Homepage} />
         <Route path={'/detailstore'} exact component={DetailStore} />
         <Route path={'/login'} exact component={Login} />
+        <Route path={'/productcategory'} exact component={ProductCategory} />
       </Switch>
       <Footer />
     </div>

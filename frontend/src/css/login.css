@@ -107,4 +107,17 @@
       }
   }
 
-  /* 1080 */
+ @media screen and (max-width: 1260px) {
+    .container-img-login{
+        margin-left: 150px;
+      }
+  }
+  /* laptop fakhran */
+  @media screen and (max-width: 1300px) {
+    .container-img-login{
+        margin-left: 100px;
+      }
+  }
+  /* laptop fakhran */
+  
+ 

@@ -1,0 +1,92 @@
+/* Footer Started */
+
+.Footer-New {
+    height: 455px;
+    background-color: #fbfbfb;
+}
+
+.Footer-Top{
+    display: flex;
+    margin-top: 110px;
+    margin-left: 140px;
+    /* margin-left: 340px; */
+}
+
+.Footer-Layanan{
+    margin-top: 50px;
+    display: column;
+    margin-right: 95px;
+}
+
+.Footer-Layanan-Head{
+    font-size: .75rem;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,.54)
+}
+
+.Footer-Layanan-Column-1{
+    font-size: .75rem;
+    font-family: 'Roboto';
+    color: rgba(0,0,0,.54);
+    letter-spacing: 1px;
+}
+
+.Footer-Layanan-Column-2{
+    font-size: .75rem;
+    font-family: 'Roboto';
+    color: rgba(0,0,0,.54);
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+.Footer-Jelajahi{
+    margin-top: 50px;
+    display: column;
+    margin-right: 95px;
+}
+
+.Footer-Jelajahi-Head{
+    font-size: .75rem;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,.54)
+}
+
+.Footer-Jelajahi-Column-1{
+    font-size: .75rem;
+    font-family: 'Roboto';
+    color: rgba(0,0,0,.54);
+    letter-spacing: 1px;
+}
+
+.Footer-Jelajahi-Column-2{
+    font-size: .75rem;
+    font-family: 'Roboto';
+    color: rgba(0,0,0,.54);
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+.Footer-Pembayaran{
+    margin-top: 50px;
+    display: column;
+    margin-right: 95px;
+}
+
+.Footer-Pembayaran-Head{
+    font-size: .75rem;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,.54)
+}
+
+.Footer-Pembayaran-Image-Flex{
+    display: flex;
+    margin-bottom: 19px;
+}
+
+/* Footer Ended */
