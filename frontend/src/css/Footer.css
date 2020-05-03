@@ -5,6 +5,10 @@
     background-color: #fbfbfb;
 }
 
+.Footer-Full{
+    margin-left: 140px;
+}
+
 .Footer-Top{
     display: flex;
     margin-top: 110px;
@@ -89,4 +93,140 @@
     margin-bottom: 19px;
 }
 
+.Image-Content{
+    width: 45px;
+    margin-right: 15px;
+}
+
+.Footer-Pengiriman-Head{
+    font-size: .75rem;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,.54)
+}
+
+.Footer-Ikuti{
+    margin-top: 50px;
+    display: column;
+    margin-right: 95px;
+}
+
+.Footer-Ikuti-Head{
+    font-size: .75rem;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,.54)
+}
+
+.Footer-Icons-Flex-1{
+    display: flex;
+}
+
+.Footer-Icons-Flex-2{
+    display: flex;
+    margin-top: 15px;
+}
+
+.Footer-Icons-Text{
+    font-size: .75rem;
+    font-family: 'Roboto';
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,.54);
+    margin-left: 7px;
+    margin-top: 1px;
+}
+
+.Footer-Download{
+    margin-top: 50px;
+    display: column;
+    margin-left: 10px;
+}
+
+.Footer-Download-Head{
+    font-size: .75rem;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(0,0,0,.54)
+}
+
+.Footer-Image-Flex{
+    display: flex;
+}
+
+.Footer-Image-Barcode{
+    width: 80px;
+    margin-right: 4px;
+}
+
+.Footer-Image-AppStore{
+    width: 100px;
+    margin-top: 10px;
+}
+
+.Footer-Image-PlayStore{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.Footer-Hr{
+    width: 1163px;
+    margin-right: 199px;
+}
+
+.Footer-Bottom{
+    display: flex;
+}
+
+.Footer-Bottom-Left{
+    font-family: 'Roboto';
+    color:rgba(0,0,0,.54) ;
+    font-size: 15px;
+    margin-right: 348px;
+}
+
+.Footer-Bottom-Right-Negara{
+    font-family: 'Roboto';
+    color:rgba(0,0,0,.54) ;
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.Footer-Bottom-Right{
+    font-family: 'Roboto';
+    color:rgba(0,0,0,.54) ;
+    font-size: 15px;
+    margin-right: 7px;
+}
+
+
+@media screen and (min-width: 1920px) {
+  
+.Footer-Full{
+    margin-left: 350px;
+}
+
+.Footer-Hr{
+    width: 1163px;
+    margin-right: 500px;
+ }
+  } 
+
+@media screen and (max-width: 1300px) {
+  
+.Footer-Full{
+    margin-left: 140px;
+}
+
+.Footer-Hr{
+    width: 1163px;
+    margin-right: 199px;
+ }
+ 
+  } 
+
 /* Footer Ended */
+
