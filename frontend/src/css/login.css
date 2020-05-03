@@ -101,7 +101,7 @@
  /* LOGIN END  */
 
 
-
+/* Laptop Hapis */
  @media screen and (max-width: 1440px) {
     .container-img-login{
         margin-left: 150px;
@@ -113,5 +113,12 @@
         margin-left: 150px;
       }
   }
-
-  /* 1080 */
+  /* laptop fakhran */
+  @media screen and (max-width: 1300px) {
+    .container-img-login{
+        margin-left: 100px;
+      }
+  }
+  /* laptop fakhran */
+  
+ 

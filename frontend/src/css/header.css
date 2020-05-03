@@ -236,6 +236,7 @@
   
    /* HEADER ENDED */
 
+  /* laptop dzaky */
  @media screen and (min-width: 1920px) {
     .Navbar-Menu-1{
       margin-left: 330px;
@@ -253,16 +254,16 @@
     }
   } 
 
-
- @media screen and (max-width: 1300px) {
+  /* laptop fakhran */
+  @media screen and (max-width: 1300px) {
   .Navbar{
-    height: 25vh;
+    height: 21vh;
    }
     .Navbar-Menu-1{
-      margin-left: 190px;
+      margin-left: 125px;
     }
     .Navbar-Middle{
-      margin-left: 180px;
+      margin-left: 110px;
       display: flex;
     }
 
@@ -279,12 +280,13 @@
       height: 100%;
     }
 
+   
     .Navbar-Bottom{
       display: flex;
       z-index: 2;
       position: absolute;
-      left: 400px;
-      top: 100px;
+      left: 318px;
+      top: 90px;
     }
     
     .Navbar-Input-Search{
