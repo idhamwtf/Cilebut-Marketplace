@@ -4,6 +4,7 @@ import '../css/productCategory.css'
 // import Footer from '../components/Footer'
 
 import { FiMenu, FiFilter } from 'react-icons/fi';
+import { FaStar, FaStarHalf } from 'react-icons/fa';
 
 const ProductCategory = () => {
     return (
@@ -53,17 +54,21 @@ const ProductCategory = () => {
                                 Tipe Penjual
                             </p>
                         </div>
-                        <a className="shortcut-menu-title" href='/'>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
                             Shopee Mall
-                        </a>
-                        <br />
-                        <a className="shortcut-menu-title" href='/'>
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
                             Star Seller
-                        </a>
-                        <br />
-                        <a className="shortcut-menu-title" href='/'>
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
                             Shopee24
-                        </a>
+                        </div>
                     </div>
 
                     <div className="shortcut-menu">
@@ -73,17 +78,21 @@ const ProductCategory = () => {
                                 Lokasi
                             </p>
                         </div>
-                        <a className="shortcut-menu-title" href='/'>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
                             Jabodetabek
-                        </a>
-                        <br />
-                        <a className="shortcut-menu-title" href='/'>
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
                             DKI Jakarta
-                        </a>
-                        <br />
-                        <a className="shortcut-menu-title" href='/'>
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
                             Jawa Barat
-                        </a>
+                        </div>
                     </div>
 
                     <div className="shortcut-menu">
@@ -93,17 +102,21 @@ const ProductCategory = () => {
                                 Merek
                             </p>
                         </div>
-                        <a className="shortcut-menu-title" href='/'>
-                            Sony's Playstation
-                        </a>
-                        <br />
-                        <a className="shortcut-menu-title" href='/'>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
+                            SONY Playstation
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
                             XBOX
-                        </a>
-                        <br />
-                        <a className="shortcut-menu-title" href='/'>
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
                             Nintendo
-                        </a>
+                        </div>
                     </div>
 
                     <div className="shortcut-menu">
@@ -113,17 +126,21 @@ const ProductCategory = () => {
                                 Opsi Pengiriman
                             </p>
                         </div>
-                        <a className="shortcut-menu-title" href='/'>
-                            Shopee Express Sameday
-                        </a>
-                        <br />
-                        <a className="shortcut-menu-title" href='/'>
-                            GrabExpress Sameday
-                        </a>
-                        <br />
-                        <a className="shortcut-menu-title" href='/'>
-                            Reguler
-                        </a>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
+                            Shopee Express
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
+                            Shopee Sameday
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
+                            Shopee Instant
+                        </div>
                     </div>
 
                     <div className="shortcut-menu">
@@ -133,9 +150,11 @@ const ProductCategory = () => {
                                 Opsi Pembayaran
                             </p>
                         </div>
-                        <a className="shortcut-menu-title" href='/'>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
                             Bayar di Tempat (COD)
-                        </a>
+                        </div>
                     </div>
 
                     <div className="shortcut-menu">
@@ -145,17 +164,35 @@ const ProductCategory = () => {
                                 Penilaian
                             </p>
                         </div>
-                        <a className="shortcut-menu-title" href='/'>
-                            5 ke atas
-                        </a>
-                        <br />
-                        <a className="shortcut-menu-title" href='/'>
-                            4 ke atas
-                        </a>
-                        <br />
-                        <a className="shortcut-menu-title" href='/'>
-                            3 ke atas
-                        </a>
+                        <div className="shortcut-menu-title">
+                            <p className="shortcut-icon">
+                                <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+                            </p>
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <p className="shortcut-icon">
+                                <FaStar /><FaStar /><FaStar /><FaStar /><FaStarHalf />
+                                ke atas
+                            </p>
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <p className="shortcut-icon">
+                                <FaStar /><FaStar /><FaStar /><FaStar />
+                                ke atas
+                            </p>
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <p className="shortcut-icon">
+                                <FaStar /><FaStar /><FaStar /><FaStarHalf />
+                                ke atas
+                            </p>
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <p className="shortcut-icon">
+                                <FaStar /><FaStar /><FaStar />
+                                ke atas
+                            </p>
+                        </div>
                     </div>
 
                     <div className="shortcut-menu">
@@ -165,13 +202,16 @@ const ProductCategory = () => {
                                 Program Promosi
                             </p>
                         </div>
-                        <a className="shortcut-menu-title" href='/'>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
                             Gratis Ongkir XTRA
-                        </a>
-                        <br />
-                        <a className="shortcut-menu-title" href='/'>
+                        </div>
+                        <div className="shortcut-menu-title">
+                            <input type="checkbox" defaultChecked="checked" />
+                            <span className="checkmark" />
                             Cashback XTRA
-                        </a>
+                        </div>
                     </div>
 
                     <div className="shortcut-menu">
@@ -181,18 +221,14 @@ const ProductCategory = () => {
                                 Batas Harga
                             </p>
                         </div>
-                        <a className="shortcut-menu-title" href='/'>
-                            RP MIN
-                        </a>
-                        <br />
-                        <a className="shortcut-menu-title" href='/'>
-                            RP MAX
-                        </a>
+                        <input className='shortcut-input' type="number" placeholder="RP MIN" />
+                        <input className='shortcut-input' type="number" placeholder="RP MAX" />
+                        <div className="shortcut-button" href='/'>
+                            TERAPKAN
+                        </div>
+                        <hr style={{ width: "75%", marginLeft: "-5px", marginBottom: "-5px" }} />
                     </div>
 
-                    <div className="shortcut-button" href='/'>
-                        TERAPKAN
-                    </div>
                     <div className="shortcut-button" href='/'>
                         HAPUS SEMUA
                     </div>
