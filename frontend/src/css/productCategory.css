@@ -24,9 +24,9 @@
 }
 
 .shortcut-icon {
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 5px;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .shortcut-submenu {
@@ -44,12 +44,25 @@
     text-transform: none;
 }
 
-.shortcut-button {
-    font-family: Montserrat, Overpass,Trebuchet MS,Arial,sans-serif;
-    font-size: 12px;
+.shortcut-menu-title > input {
     margin: 10px;
+}
+
+.shortcut-input {
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.shortcut-button {
+    font-family: 'Roboto';
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 0px;
     background-color: orange;
-    padding: 10px 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
     text-align: center;
   }
