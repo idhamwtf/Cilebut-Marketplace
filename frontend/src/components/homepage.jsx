@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Homepage (){
-    return(
+function Homepage() {
+    return (
         <div>
-            <div style={{color:'black', fontSize:'42'}}>HOMEPAGE TEST</div>
+            <div style={{ color: 'black', fontSize: '42' }}>HOMEPAGE TEST</div>
         </div>
     )
 }
