@@ -1,8 +1,8 @@
 /* HEADER STARTED */
 
 .Navbar{
-    /* background:  linear-gradient(-180deg,#f53d2d,#f63); */
-    background:  linear-gradient(-180deg,#d7385e,#30475e);
+    background:  linear-gradient(-180deg,#f53d2d,#f63);
+    /* background:  linear-gradient(-180deg,#d7385e,#30475e); */
     width: 100%;
     height: 15vh;
    }
@@ -200,12 +200,12 @@
      float: left;
      width: 9%;
      padding: 10px;
-     /* background: linear-gradient(-180deg,#f53d2d,#f63); */
-     background:  linear-gradient(-180deg,#d7385e,#30475e);
+     background: linear-gradient(-180deg,#f53d2d,#f63);
+     /* background:  linear-gradient(-180deg,#d7385e,#30475e); */
      color: white;
      font-size: 17px;
-     /* border: 1px solid #f63; */
-     border: 1px solid #698474;
+     border: 1px solid #f63;
+     /* border: 1px solid #698474; */
      border-left: none;
      height: 40px;
      cursor: pointer;

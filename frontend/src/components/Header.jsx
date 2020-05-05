@@ -9,7 +9,7 @@ import './../css/header.css'
 // Header Complete
 const Header = () => {
     return (
-        <div>
+        <div className='Navbar'>
             <div>
                 <div className='Navbar-Menu-1'>
                     <div className='Navbar-Menu-JDI'>

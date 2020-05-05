@@ -24,7 +24,7 @@ const Footer = () => {
                     <div className='Footer-Jelajahi'>
                         <p className='Footer-Jelajahi-Head'>JELAJAHI SHOPEE</p>
                         <h6 className='Footer-Jelajahi-Column-1'>Tentang Kami</h6>
-                        <h6 className='Footer-Jelajahi-Column-2' style={{ fontSize: ".75rem", fontFamily: "Roboto", color: "rgba(0,0,0,.54)", letterSpacing: "1px", marginTop: "15px" }}>Karir</h6>
+                        <h6 className='Footer-Jelajahi-Column-2'>Karir</h6>
                         <h6 className='Footer-Jelajahi-Column-2'>Kebijakan Shopee</h6>
                         <h6 className='Footer-Jelajahi-Column-2'>Kebijakan Privasi</h6>
                         <h6 className='Footer-Jelajahi-Column-2'>Blog</h6>
