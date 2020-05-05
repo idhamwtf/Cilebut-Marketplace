@@ -40,7 +40,7 @@ const Header = () => {
                         <img src="https://tambahfollowers.net/assets/img/brand/logo-shopee-white.png" alt="a" className='Image-Logo' />
                     </Link>
                     <form className="example Flex" >
-                        <input type="text" placeholder="&nbsp; Search.." name="search2" className='Navbar-Input-Search' />
+                        <input type="text" placeholder="&nbsp; Search.." name="search2" className="form-control" />
                         <button type="submit">
                             <FaSearch className='Navbar-Icon-Search' />
                         </button>

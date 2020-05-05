@@ -165,17 +165,28 @@
       margin-top: 5px;
     }
   
-    .Navbar-Input-Search{
+    /* .Navbar-Input-Search{
       width: 770px;
       border: 1px solid white;
       border-radius: 5px;
       height: 40px;
+      box-shadow: inset 0 0px 0 #ddd;
     }
-  
+   */
+
+   [type=text].form-control{
+     box-shadow: inset 0 0px 0 #ddd;
+     width: 770px;
+     border: 1px solid white;
+     border-radius: 5px;
+     height: 40px;
+     box-shadow: inset 0 0px 0 #ddd;
+   }
+   
     .Navbar-Icon-Search{
       font-size: 20px;
       color: white;
-       margin-bottom: 9px;
+      margin-bottom: 9px;
     }
   
     .Navbar-Icon-Cart{
@@ -225,6 +236,7 @@
   
    /* HEADER ENDED */
 
+  /* laptop dzaky */
  @media screen and (min-width: 1920px) {
     .Navbar-Menu-1{
       margin-left: 330px;
@@ -242,26 +254,43 @@
     }
   } 
 
- @media screen and (max-width: 1300px) {
+  /* laptop fakhran */
+  @media screen and (max-width: 1300px) {
   .Navbar{
-    height: 25vh;
+    height: 21vh;
    }
     .Navbar-Menu-1{
-      margin-left: 50px;
+      margin-left: 125px;
     }
     .Navbar-Middle{
-      margin-left: 180px;
+      margin-left: 110px;
       display: flex;
     }
+
+    .Navbar-Icons-3{
+      font-size: 19px;
+      font-family: 'Roboto';
+      color: white;
+      margin-right: 490px;
+      margin-top: 8px;
+    }
+
+     .Image-Logo{
+      width: 155px;
+      height: 100%;
+    }
+
+   
     .Navbar-Bottom{
       display: flex;
       z-index: 2;
       position: absolute;
-      left: 400px;
-      top: 100px;
+      left: 318px;
+      top: 90px;
     }
+    
     .Navbar-Input-Search{
-      width: 500px;
+      width: 690px;
       border: 1px solid white;
       border-radius: 5px;
       height: 40px;

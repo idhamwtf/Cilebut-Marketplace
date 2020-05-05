@@ -39,6 +39,7 @@
    font-size: 14px;
    border: none;
  }
+ 
  textarea:focus, 
  textarea.form-control:focus, 
  input.form-control:focus, 
@@ -48,7 +49,7 @@
  /* input[type=number]:focus,  */
  [type=text].form-control:focus, 
  [type=password].form-control:focus, 
- [type=email].form-control:focus, 
+ /* [type=email].form-control:focus,  */
  [type=tel].form-control:focus, 
  [contenteditable].form-control:focus {
    box-shadow: inset 0 0px 0 #ddd;
@@ -100,8 +101,8 @@
  /* LOGIN END  */
 
 
-
- @media screen and (max-width: 1810px) {
+/* Laptop Hapis */
+ @media screen and (max-width: 1440px) {
     .container-img-login{
         margin-left: 150px;
       }
@@ -112,5 +113,12 @@
         margin-left: 150px;
       }
   }
-
-  /* 1080 */
+  /* laptop fakhran */
+  @media screen and (max-width: 1300px) {
+    .container-img-login{
+        margin-left: 100px;
+      }
+  }
+  /* laptop fakhran */
+  
+ 
