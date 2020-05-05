@@ -1,15 +1,11 @@
 import React from 'react';
-import { IoIosNotificationsOutline, IoIosHelpCircleOutline, } from 'react-icons/io'
-import { FaFacebook, FaLine, FaSearch, FaLinkedin } from 'react-icons/fa'
-import { AiFillInstagram } from 'react-icons/ai'
-import { FiShoppingCart } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 import './../css/header.css'
 
 // Header Complete
 const Header = () => {
     return (
-        <div className='Navbar'>
+        <div>
             <div>
                 <div className='Navbar-Menu-1'>
                     <div className='Navbar-Menu-JDI'>

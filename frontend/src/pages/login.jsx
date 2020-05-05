@@ -32,8 +32,8 @@ export default function Login() {
                 {visibility ? (
                   <VisibilityIcon className="mata-mata" onClick={() => setvisibility(!visibility)} />
                 ) : (
-                  <VisibilityOffIcon className="mata-mata" onClick={() => setvisibility(!visibility)} />
-                )}
+                    <VisibilityOffIcon className="mata-mata" onClick={() => setvisibility(!visibility)} />
+                  )}
               </div>
               <button type="submit" className="btn" style={{ fontSize: "14px", backgroundColor: "#ee4d2d", color: "white", width: "440px", height: "40px" }} disabled>
                 LOGIN
