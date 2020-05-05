@@ -33,7 +33,7 @@ const Footer = () => {
                     </div>
                     <div className='Footer-Pembayaran'>
                         <p className='Footer-Pembayaran-Head'>PEMBAYARAN</p>
-                        <div className='Footer-Pembayaran-Image-Flex' className='Footer-Pembayaran-Image-Flex'>
+                        <div className='Footer-Pembayaran-Image-Flex'>
                             <img src="https://3.bp.blogspot.com/-ZK6W9UlA3lw/V15RGexr3yI/AAAAAAAAAJ4/nkyM9ebn_qg3_rQWyBZ1se5L_SSuuxcDACLcB/s1600/Bank_Central_Asia.png" alt="a" className='Image-Content' />
                             <img src="https://logos-download.com/wp-content/uploads/2016/06/Mandiri_logo.png" alt="a" className='Image-Content' />
                             <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Logo_BRI.png" alt="a" className='Image-Content' />
