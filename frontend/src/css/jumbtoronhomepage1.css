@@ -82,3 +82,54 @@
     justify-content: center;
     text-align: center;
 }
+
+
+
+/* responsive */
+
+/* fakhran 1280x720 */
+
+@media screen and (min-width: 1280px) {
+    .jumbotron-1-box-1{
+        /* border: black 1px solid; */
+        margin: 0px 227px 0 40px;
+    }
+    .jumbotron-1-box-2{
+        /* border: pink 1px solid; */
+        margin: 10px 130px 0 40px;
+    }
+}
+
+
+/* hapis 1440x900*/
+
+@media screen and (min-width: 1440px) {
+    .jumbotron-1-box-1{
+        /* border: black 1px solid; */
+        margin: 0px 227px 0 122px;
+    }
+    .jumbotron-1-box-2{
+        /* border: pink 1px solid; */
+        margin: 10px 130px 0 122px;
+    }
+}
+
+/* dzaky 1920x1080 */
+
+
+@media screen and (min-width:1920px){
+    .jumbotron-1-box-1{
+        /* border: black 1px solid; */
+        margin: 0px 227px 0 322px;
+    }
+    .jumbotron-1-box-2{
+        /* border: pink 1px solid; */
+        margin: 10px 130px 0 322px;
+    }
+}
+
+
+
+
+
+/* responsive end */
