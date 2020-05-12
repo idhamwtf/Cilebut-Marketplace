@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import DetailStore from './pages/detailStore'
 import Login from './pages/login'
 import ProductCategory from './pages/productCategory';
+import Cart from './pages/cartuser'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path={'/detailstore'} exact component={DetailStore} />
         <Route path={'/login'} exact component={Login} />
         <Route path={'/productcategory'} exact component={ProductCategory} />
+        <Route path={'/cart'} exact component={Cart} />
       </Switch>
       <Footer />
     </div>

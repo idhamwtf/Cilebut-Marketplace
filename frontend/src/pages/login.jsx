@@ -10,7 +10,7 @@ export default function Login() {
   return (
     <div className="container-login">
       <div className="container-img-login">
-        <img src="https://i1.wp.com/shopee.co.id/inspirasi-shopee/wp-content/uploads/2019/12/Didi-Kempot-x-Bruno.png?resize=696%2C657&ssl=1"  />
+        <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7938eb0da6b44e612eef720e901c95d8.png"  />
       </div>
       <div className="container-box-login">
         <div className="container-box-login-layer2">
