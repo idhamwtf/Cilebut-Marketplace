@@ -8,7 +8,6 @@ import './../css/header.css'
 
 // Header Complete
 const Header = () => {
-
     return (
         <div className='Navbar'>
             <div>

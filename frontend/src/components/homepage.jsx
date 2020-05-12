@@ -1,9 +1,10 @@
 import React from 'react';
+import Jumbotron1 from './../components/jumbtoronhomepage1'
 
 function Homepage() {
     return (
         <div>
-            <div style={{ color: 'black', fontSize: '42' }}>HOMEPAGE TEST</div>
+            <Jumbotron1/>
         </div>
     )
 }

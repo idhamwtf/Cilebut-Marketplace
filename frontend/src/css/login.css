@@ -1,46 +1,47 @@
 /* LOGIN START */
 
+.container-img-login {
+  margin-left: 350px;
+}
+.container-img-login img{
+  width: 650px;
+  height: 630px;
+}
+.container-login {
+  background-color: #ff742d;
+  display: flex;
+}
+.container-box-login {
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  border-radius: 2%;
+  margin-top: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container-box-login-layer2 {
+  margin: 30px;
+}
+.box-login-1 {
+  display: flex;
+  margin-bottom: 30px;
+}
+.daftar-login {
+  margin-top: 3px;
+}
+.form-group {
+  border: 1px solid #d6d6de;
+  border-radius: 4%;
+  display: flex;
+  /* margin-bottom: 100px; */
+}
+.form-group input {
+  margin: 3px;
+  font-size: 14px;
+  border: none;
+}
 
-.container-img-login{
-    margin-left: 350px;
-  }
- .container-login{
-   background-color: #ff742d;
-   display: flex;
- }
- .container-box-login{
-   background-color: white;
-   width: 500px;
-   height: 500px;
-   border-radius: 2%;
-   margin-top: 60px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- 
- }
- .container-box-login-layer2{
-   margin: 30px
- }
- .box-login-1{
-   display: flex;
-   margin-bottom: 30px;
-   
- }
- .daftar-login{
-   margin-top: 3px
- }
- .form-group{
-   border: 1px solid #d6d6de;
-   border-radius: 4%;
-   display: flex;
-   /* margin-bottom: 100px; */
- }
- .form-group input{
-   margin: 3px;
-   font-size: 14px;
-   border: none;
- }
- 
- textarea:focus, 
+textarea:focus, 
  textarea.form-control:focus, 
  input.form-control:focus, 
  /* input[type=text]:focus,  */
@@ -52,73 +53,129 @@
  /* [type=email].form-control:focus,  */
  [type=tel].form-control:focus, 
  [contenteditable].form-control:focus {
-   box-shadow: inset 0 0px 0 #ddd;
- }
- 
- .box-login-3{
-   font-size: 14px;
-   color: #0055aa;
-   margin-top: 20px
- }
- .mata-mata{
-   margin-top: 8px;
-   margin-right: 20px;
-   color: grey;
-   cursor: pointer
- }
- .box-login-4{
-   display: flex;
-   /* border: 1px solid red; */
-   margin-top: 40px;
- }
- .cuma-garis{
-   width: 185px;
-   height: 1px;
-   background-color: #cccccc;
-   margin-top: 12px
- }
- .box-login-4 span{
-   font-size: 14px;
-   color: #cccccc;
-   padding: 0 16px 0 16px
- }
- .box-login-5{
-   display: flex;
-   margin-top: 30px;
- }
- .box-login-5 button{
- width: 215px;
- height: 40px;
- background-color: #4285f4;
- font-size: 16px;
- font-weight: bold;
- color: white;
- display: flex;
- margin-right: 10px;
- }
- 
- 
- /* LOGIN END  */
+  box-shadow: inset 0 0px 0 #ddd;
+}
 
+.box-login-3 {
+  font-size: 14px;
+  color: #0055aa;
+  margin-top: 20px;
+}
+.box-login-3-a{
+  margin-right: 200px;
+}
+.mata-mata {
+  margin-top: 8px;
+  margin-right: 20px;
+  color: grey;
+  cursor: pointer;
+}
+.box-login-4 {
+  display: flex;
+  margin-top: 40px;
+}
+.login-btn{
+  font-size: 14px;
+  background-color: #ee4d2d;
+  color: white;
+  width: 440px;
+  height: 40px;
+}
+.cuma-garis {
+  width: 185px;
+  height: 1px;
+  background-color: #cccccc;
+  margin-top: 12px;
+}
+.box-login-4 span {
+  font-size: 14px;
+  color: #cccccc;
+  padding: 0 16px 0 16px;
+}
+.box-login-5 {
+  display: flex;
+  margin-top: 30px;
+}
+.box-login-5 button {
+  width: 215px;
+  height: 40px;
+  background-color: #4285f4;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  margin-right: 10px;
+}
+.logo-google{
+  width: 25px;
+  height: 25px;
+  /* margin-top: -5px; */
+}
+
+/* LOGIN END  */
+
+/* laptop idham */
+@media screen and (max-width: 1536px) {
+  .container-img-login {
+    margin-left: 150px;
+  }
+}
 
 /* Laptop Hapis */
- @media screen and (max-width: 1440px) {
-    .container-img-login{
-        margin-left: 150px;
-      }
+@media screen and (max-width: 1440px) {
+  .container-img-login {
+    margin-left: 150px;
   }
+}
 
- @media screen and (max-width: 1260px) {
-    .container-img-login{
-        margin-left: 150px;
-      }
+/* laptop fakhran */
+@media screen and (max-width: 1300px) {
+  .container-img-login {
+    margin-left: 80px;
   }
-  /* laptop fakhran */
-  @media screen and (max-width: 1300px) {
-    .container-img-login{
-        margin-left: 100px;
-      }
+  .container-img-login img{
+    width: 550px;
+    height: 530px;
   }
-  /* laptop fakhran */
-  
- 
+  .container-box-login {
+    width: 450px;
+    height: 450px;
+    margin-top: 30px;
+  }
+  .login-btn{
+    width: 390px;
+    height: 40px;
+  }
+  .box-login-3{
+font-size: 13px;
+  }
+  .box-login-3-a{
+    margin-right: 170px;
+  }
+  .box-login-4 {
+    margin-top: 20px;
+  }
+  .box-login-5 button {
+    width: 180px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    margin-right: 30px;
+  }
+  .box-login-5 {
+    margin-top: 30px;
+  }
+  .logo-fb{
+    margin-top: -5px;
+  }
+  .logo-fb-b{
+    margin-top: -3px;
+  }
+  .logo-google{
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+  }
+}

@@ -2,7 +2,7 @@
 
 .Navbar{
     background:  linear-gradient(-180deg,#f53d2d,#f63);
-    /* background:  linear-gradient(-180deg,#005082,#698474); */
+    /* background:  linear-gradient(-180deg,#d7385e,#30475e); */
     width: 100%;
     height: 15vh;
    }
@@ -178,7 +178,7 @@
      box-shadow: inset 0 0px 0 #ddd;
      width: 770px;
      border: 1px solid white;
-     border-radius: 5px;
+     border-radius: 2px;
      height: 40px;
      box-shadow: inset 0 0px 0 #ddd;
    }
@@ -201,14 +201,15 @@
      width: 9%;
      padding: 10px;
      background: linear-gradient(-180deg,#f53d2d,#f63);
-     /* background:  linear-gradient(-180deg,#005082,#698474); */
+     /* background:  linear-gradient(-180deg,#d7385e,#30475e); */
      color: white;
      font-size: 17px;
      border: 1px solid #f63;
+     /* border: 1px solid #698474; */
      border-left: none;
      height: 40px;
      cursor: pointer;
-     border-radius: 3px;
+     border-radius: 2px;
   
    }
   

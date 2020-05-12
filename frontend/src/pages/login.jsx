@@ -10,7 +10,7 @@ export default function Login() {
   return (
     <div className="container-login">
       <div className="container-img-login">
-        <img src="https://i1.wp.com/shopee.co.id/inspirasi-shopee/wp-content/uploads/2019/12/Didi-Kempot-x-Bruno.png?resize=696%2C657&ssl=1" height="630px" width="650px" />
+        <img src="https://i1.wp.com/shopee.co.id/inspirasi-shopee/wp-content/uploads/2019/12/Didi-Kempot-x-Bruno.png?resize=696%2C657&ssl=1"  />
       </div>
       <div className="container-box-login">
         <div className="container-box-login-layer2">
@@ -32,17 +32,17 @@ export default function Login() {
                 {visibility ? (
                   <VisibilityIcon className="mata-mata" onClick={() => setvisibility(!visibility)} />
                 ) : (
-                  <VisibilityOffIcon className="mata-mata" onClick={() => setvisibility(!visibility)} />
-                )}
+                    <VisibilityOffIcon className="mata-mata" onClick={() => setvisibility(!visibility)} />
+                  )}
               </div>
-              <button type="submit" className="btn" style={{ fontSize: "14px", backgroundColor: "#ee4d2d", color: "white", width: "440px", height: "40px" }} disabled>
+              <button type="submit" className="btn login-btn" style={{ fontSize: "14px", backgroundColor: "#ee4d2d", color: "white" }} disabled>
                 LOGIN
               </button>
             </form>
           </div>
 
           <div className="box-login-3">
-            <a style={{ marginRight: "200px" }}>Hilang Ingatan?</a>
+            <a className='box-login-3-a'>Hilang Ingatan?</a>
             <a>Long in dengan MMS </a>
           </div>
 
@@ -53,17 +53,17 @@ export default function Login() {
           </div>
 
           <div className="box-login-5">
-            <button type="button" className="btn button-1">
-              <div>
+            <button type="button" className="btn">
+              <div className='logo-fb'>
                 <FacebookIcon />
               </div>
-              <div style={{ width: "165px" }}>Facebook</div>
+              <div className='logo-fb-b' style={{ width: "165px" }}>Facebook</div>
             </button>
-            <button type="button" className="btn button-1">
+            <button type="button" className="btn">
               <div>
-                <img src="https://news-cdn.softpedia.com/images/news2/google-unveils-new-logo-in-an-emotional-video-490639-3.jpg" width="28px" height="28px" />
+                <img src="https://news-cdn.softpedia.com/images/news2/google-unveils-new-logo-in-an-emotional-video-490639-3.jpg" className='logo-google' />
               </div>
-              <div style={{ width: "165px" }}>Google</div>
+              <div className='logo-fb-b' style={{ width: "165px" }}>Google</div>
             </button>
           </div>
 

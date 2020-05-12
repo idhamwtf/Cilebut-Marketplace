@@ -12,16 +12,16 @@ function DetailStore() {
                 <div className="container-carousel">
                     <Carousel infiniteLoop useKeyboardArrows autoPlay stopOnHover>
                         <div>
-                            <img src="https://wallpaperaccess.com/full/17444.jpg" alt="" />
+                            <img style={{ maxHeight: '40vh' }} src="https://wallpaperaccess.com/full/17444.jpg" alt="" />
                         </div>
                         <div>
-                            <img src="https://wallpaperaccess.com/full/17444.jpg" alt="" />
+                            <img style={{ maxHeight: '40vh' }} src="https://wallpaperaccess.com/full/17444.jpg" alt="" />
                         </div>
                         <div>
-                            <img src="https://wallpaperaccess.com/full/17444.jpg" alt="" />
+                            <img style={{ maxHeight: '40vh' }} src="https://wallpaperaccess.com/full/17444.jpg" alt="" />
                         </div>
                     </Carousel>
-                    <div style={{ display: 'flex', fontFamily: 'Roboto', marginTop: '55px' }}>
+                    <div className="detail-carousel">
                         <div style={{ display: 'flex' }}>
                             <div style={{ marginLeft: '30px', marginRight: '10px' }} > Share: </div>
                             <div style={{ marginRight: '10px' }}> <FaFacebook /> </div>
